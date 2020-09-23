@@ -1,0 +1,2 @@
+(this["webpackJsonpnerbyk-github-io"]=this["webpackJsonpnerbyk-github-io"]||[]).push([[0],{3:function(e,t,n){e.exports=n(8)},8:function(e,t,n){"use strict";n.r(t);var r=n(0),o=n.n(r),u=n(2);function c(){return o.a.createElement("h1",null,"App")}Object(u.render)(o.a.createElement(c,null),document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.b4e3d3ea.chunk.js.map
