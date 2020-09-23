@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Nerbyk.github.io/static/css/main.85770931.chunk.css",
-    "main.js": "/Nerbyk.github.io/static/js/main.dd6e660a.chunk.js",
-    "main.js.map": "/Nerbyk.github.io/static/js/main.dd6e660a.chunk.js.map",
-    "runtime-main.js": "/Nerbyk.github.io/static/js/runtime-main.5504caf7.js",
-    "runtime-main.js.map": "/Nerbyk.github.io/static/js/runtime-main.5504caf7.js.map",
-    "static/js/2.5fba67cf.chunk.js": "/Nerbyk.github.io/static/js/2.5fba67cf.chunk.js",
-    "static/js/2.5fba67cf.chunk.js.map": "/Nerbyk.github.io/static/js/2.5fba67cf.chunk.js.map",
-    "index.html": "/Nerbyk.github.io/index.html",
-    "precache-manifest.9ba47ef09000b0e359635647264810f4.js": "/Nerbyk.github.io/precache-manifest.9ba47ef09000b0e359635647264810f4.js",
-    "service-worker.js": "/Nerbyk.github.io/service-worker.js",
-    "static/css/main.85770931.chunk.css.map": "/Nerbyk.github.io/static/css/main.85770931.chunk.css.map",
-    "static/js/2.5fba67cf.chunk.js.LICENSE.txt": "/Nerbyk.github.io/static/js/2.5fba67cf.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/Nerbyk.github.io/static/media/open-sans-v17-latin-regular.de0869e3.woff"
+    "main.css": "/static/css/main.3eafb6cc.chunk.css",
+    "main.js": "/static/js/main.dd6e660a.chunk.js",
+    "main.js.map": "/static/js/main.dd6e660a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6fd4ee1f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6fd4ee1f.js.map",
+    "static/js/2.5fba67cf.chunk.js": "/static/js/2.5fba67cf.chunk.js",
+    "static/js/2.5fba67cf.chunk.js.map": "/static/js/2.5fba67cf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c21e285f63de45125beb6fe5bb815c76.js": "/precache-manifest.c21e285f63de45125beb6fe5bb815c76.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3eafb6cc.chunk.css.map": "/static/css/main.3eafb6cc.chunk.css.map",
+    "static/js/2.5fba67cf.chunk.js.LICENSE.txt": "/static/js/2.5fba67cf.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/open-sans-v17-latin-regular.de0869e3.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.5504caf7.js",
+    "static/js/runtime-main.6fd4ee1f.js",
     "static/js/2.5fba67cf.chunk.js",
-    "static/css/main.85770931.chunk.css",
+    "static/css/main.3eafb6cc.chunk.css",
     "static/js/main.dd6e660a.chunk.js"
   ]
 }
