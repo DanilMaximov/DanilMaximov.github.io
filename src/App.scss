@@ -1,0 +1,36 @@
+@import "~bootstrap/scss/bootstrap"; 
+
+@import url("./assets/stylesheets/fonts.css");
+
+
+body {
+  background-color: #2B2B2B;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-family: 'Open Sans Bold';
+  letter-spacing: 2.5px;
+  .nav-item{
+    .nav-link{
+      color: white;
+    }
+  }
+  .nav-item.active .nav-link, 
+  .nav-item:hover .nav-link{
+    color: lightseagreen;
+  }
+  .language-select{
+    @extend .navbar,.nav-link;
+    width:100%!important;
+    outline: none;
+    min-width: 0%!important;
+    background-color: rgba(0,0,0,0);
+    border: 0px!important;  
+    option{
+      color: rgb(29, 20, 20); 
+    }
+  } 
+  
+}
+
