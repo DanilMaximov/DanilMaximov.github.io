@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.js": "/Nerbyk.github.io/static/js/main.b4e3d3ea.chunk.js",
-    "main.js.map": "/Nerbyk.github.io/static/js/main.b4e3d3ea.chunk.js.map",
+    "main.css": "/Nerbyk.github.io/static/css/main.85770931.chunk.css",
+    "main.js": "/Nerbyk.github.io/static/js/main.dd6e660a.chunk.js",
+    "main.js.map": "/Nerbyk.github.io/static/js/main.dd6e660a.chunk.js.map",
     "runtime-main.js": "/Nerbyk.github.io/static/js/runtime-main.5504caf7.js",
     "runtime-main.js.map": "/Nerbyk.github.io/static/js/runtime-main.5504caf7.js.map",
-    "static/js/2.373cb16e.chunk.js": "/Nerbyk.github.io/static/js/2.373cb16e.chunk.js",
-    "static/js/2.373cb16e.chunk.js.map": "/Nerbyk.github.io/static/js/2.373cb16e.chunk.js.map",
+    "static/js/2.5fba67cf.chunk.js": "/Nerbyk.github.io/static/js/2.5fba67cf.chunk.js",
+    "static/js/2.5fba67cf.chunk.js.map": "/Nerbyk.github.io/static/js/2.5fba67cf.chunk.js.map",
     "index.html": "/Nerbyk.github.io/index.html",
-    "precache-manifest.31dc3401a32aabd6d9eeea891b97a652.js": "/Nerbyk.github.io/precache-manifest.31dc3401a32aabd6d9eeea891b97a652.js",
+    "precache-manifest.9ba47ef09000b0e359635647264810f4.js": "/Nerbyk.github.io/precache-manifest.9ba47ef09000b0e359635647264810f4.js",
     "service-worker.js": "/Nerbyk.github.io/service-worker.js",
-    "static/js/2.373cb16e.chunk.js.LICENSE.txt": "/Nerbyk.github.io/static/js/2.373cb16e.chunk.js.LICENSE.txt"
+    "static/css/main.85770931.chunk.css.map": "/Nerbyk.github.io/static/css/main.85770931.chunk.css.map",
+    "static/js/2.5fba67cf.chunk.js.LICENSE.txt": "/Nerbyk.github.io/static/js/2.5fba67cf.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/Nerbyk.github.io/static/media/open-sans-v17-latin-regular.de0869e3.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.5504caf7.js",
-    "static/js/2.373cb16e.chunk.js",
-    "static/js/main.b4e3d3ea.chunk.js"
+    "static/js/2.5fba67cf.chunk.js",
+    "static/css/main.85770931.chunk.css",
+    "static/js/main.dd6e660a.chunk.js"
   ]
 }
