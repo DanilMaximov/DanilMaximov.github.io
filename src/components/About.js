@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-import {FaDownload} from 'react-icons/fa'
-
+import {FaDownload} from 'react-icons/fa';
+import MyResume from '../cv/Resume24-09.pdf';
 export default function About(){
     const insertLineBrakes = (translation) => translation.split('\n').map(line => <p>{line}</p>);
     const {t} = useTranslation();
@@ -17,7 +17,7 @@ export default function About(){
                         <p>{insertLineBrakes(t('about.contacts.content'))}</p>
                     </div>
                     <div class="col-sm">
-                        <a href="../cv/Resume24-09.pdf" class="btn btn-outline-light  btn-lg" download><FaDownload /> <span>{t('about.resume')}</span></a>
+                        <a href={MyResume} class="btn btn-outline-light  btn-lg" download='Resume_Danil_Maksimov.pdf'><FaDownload /> <span>{t('about.resume')}</span></a>
                     </div>
                 </div>
             </div>
