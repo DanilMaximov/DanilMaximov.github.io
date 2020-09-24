@@ -72,6 +72,33 @@
                 }
 
             }
+        },
+        "works": {
+            "title": "Check out of some of my works.",
+            "telegram": {
+                "role": "Ruby Developer",
+                "title": "Exam Doc's Bot",
+                "content": "",
+                "technologies": ""
+            },
+            "kidsClub": {
+                "role": "Full Stack Developer",
+                "title": "Kids Club",
+                "content": "",
+                "technologies": ""
+            },
+            "miniProjects": {
+                "role": "Front End Developer",
+                "title": "mini-projects-js",
+                "content": "",
+                "technologies": ""
+            },
+            "skamvut": {
+                "role": "Back End Developer / Ruby Developer",
+                "title": "accommodation bot",
+                "content": "",
+                "technologies": ""
+            }
         }
     }
 }

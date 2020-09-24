@@ -203,6 +203,56 @@ header{
    }
 }
 
+#works{
+  background-color: lightcyan;
+  .projects{
+    padding: 10% 0;
+    .about-project{
+      color: white;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 80%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: black;
+      h3{
+        margin-top: 5%;
+        font: 1.3em "Open Sans Condensed", sans-serif;
+      }
+      h4{
+        font: 0.8em "Open Sans Regular", sans-serif;
+      }
+      .plus-icon{
+        font-size: 1.5em;
+        margin-top: 10%;
+      }
+
+    }
+    .project-logo {
+      position: relative;
+      text-align: center;
+      &:hover {
+        .about-project {
+          opacity: 0.8;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      img{
+        width: 80%;
+        height: auto;
+      }
+    }
+  }
+
+}
+
 @media only screen and (max-width: 480px){
 
 }
