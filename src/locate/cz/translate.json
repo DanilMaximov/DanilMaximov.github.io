@@ -1,55 +1,77 @@
 {
     "translations": {
-            "nav": {
-            "home": "CZ Home",
-            "about": "CZ ABOUT",
-            "resume": "CZ RESUME",
-            "works": "cz WORKS"
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "resume": "Resume",
+            "works": "Works"
         },
 
         "home": {
             "title": "I'm Danil Maksimov.",
-            "introduction": "I'm full-stack web developer living in Brno, Czech Republic. You can learn more about me in mine ReactJS based resume"
+            "introduction": "I'm <span>full-stack web developer</span> living in Brno, Czech Republic. You can learn more about me in mine <span>ReactJS</span> based resume"
         },
         "about": {
-            "title": "About me",
-            "value": "I'm Danil, full-stack developer from Russia, who presently live in Czech Republic. I am ex-student of Information Technologies and a current Self-Learning Practical Engineer\nI've been programming since early 2019. I started with C language at the University and soon moved to Ruby and JavaScript.\nOver the past year, I have designed, developed and deployed different types of projects, from projects to automate daily tasks to various freelance and volunteer projects, where I worked as a Full-Stack developer"
+            "title": "About Me",
+            "intro": "I'm Danil, full-stack developer from Russia, who presently live in Czech Republic. I am ex-student of Information Technologies and a current Self-Learning Practical Software Developer.\nI've been programming since early 2019. I started with C language at the University and soon moved to Ruby and JavaScript. I believe that development is more about problem solving and coding is a background action, so programming language is just a tool to solve specific problems. Based on the knowledge of software engineering I acquired at the university, I try to write clean and reusable code which is easy to maintain.\nOver the past year, I have designed, developed and deployed different types of projects, from projects to automate daily tasks to various freelance and volunteer projects, where I worked as a Full-Stack developer",
+            "contacts": {
+                "title":"Contact Details",
+                "content":"Danil Maksimov\nBrno, Czech Republic\ndanil.maximov2000@gmail.com\n+420 608 129 798"
+            },
+            "resume":"Download English CV"
         },
         "resume":{
             "education": {
+                "title": "Education",
                 "university":{
-                    "title": "Brno University of Technology", 
+                    "title": "Brno University of Technology",
                     "status": "Undergraduate in Information Technology",
                     "graduateDate": "May 2022"
                 },
                 "school": {
                     "title": "Gymnasium 11 (Samara, Russia)",
-                    "status": "High School Diploma", 
+                    "status": "High School Diploma",
                     "graduateDate": "May 2018"
                 }
-            }
-        },
-        "experience": {
-            "University": {
-                "position": "C developer",
-                "range": "May 2019 - December 2019", 
-                "intro": "Acquainted with basics of programming in the statically typed languages including C. Wrote several projects including university projects. Acquainted with software engineering including lifecycle of software, stages of software development, requirements analysis, requirements specification, and methods of software design"
             },
-            "Backend":{
-                "position": "Backend developer",
-                "range": "January 2020 - June 2020", 
-                "intro": "Developed several applications on pure Ruby with wide-range functionality. Acquainted with OOP including SOLID, KISS, DRY and YAGNI principles together with Design Patterns by GoF. Developed, scaled, and deployed multi-international telegram bot with high load (posibly 12k user requests per second). Managed to analyze business features even going beyond what was requested from the client"
+            "experience": {
+                "title": "Experience",
+                "university": {
+                    "title": "University",
+                    "position": "C developer",
+                    "range": "May 2019 - December 2019",
+                    "intro": "Acquainted with basics of programming in the statically typed languages including C. Wrote several projects including university projects. Acquainted with software engineering including lifecycle of software, stages of software development, requirements analysis, requirements specification, and methods of software design"
+                },
+                "backend":{
+                    "title": "Back End",
+                    "position": "Backend developer",
+                    "range": "January 2020 - June 2020",
+                    "intro": "Developed several applications on pure Ruby with wide-range functionality. Acquainted with OOP including SOLID, KISS, DRY and YAGNI principles together with Design Patterns by GoF. Developed, scaled, and deployed multi-international telegram bot with high load (posibly 12k user requests per second). Managed to analyze business features even going beyond what was requested from the client"
+                },
+                "fullstack":{
+                    "title": "Full Stack",
+                    "position": "Fullstack web-developer",
+                    "range": "July 2020 - Present",
+                    "intro": "Maintaining and Refactoring previous projects, deepening into Front-End development together with JavaScript, ReactJS and Functional Programming. Designed and developed several projects as a Full Stack Developer with a help of Rails and React"
+                }
             },
-            "FullStack":{
-                "position": "Fullstack web-developer",
-                "range": "July 2020 - Present", 
-                "intro": "Maintaining and Refactoring previous projects, deepening into Front-End development together with JavaScript, ReactJS and Functional Programming. Designed and developed several projects as a Full Stack Developer with a help of Rails and React"
+            "skills":{
+                "title": "Skills",
+                "languages": {
+                    "title": "Languages",
+                    "content": "Ruby; JavaScript; C"
+                },
+
+                "tools": {
+                    "title": "Tools",
+                    "content": "Ruby on Rails, RSpec, dry-rb; ORM (ActiveRecorder, Sequel); HTML5, CSS3, Bootstrap, ReactJS; Git, Heroku, Linux"
+                },
+                "technologies":{
+                    "title": "Technologies",
+                    "content": "Object-Oriented Programming; Design Patterns by GoF; SOLID, DRY, KISS, YAGNI, TDA principles; Functional Programming; Test-Driven Development; Cloud Computing; REST"
+                }
+
             }
-        },
-        "skills":{
-            "Languages":"Ruby JavaScript C",
-            "Tools": "Ruby on Rails RSpec dry-rb, ORM ActiveRecorder Sequel, HTML5 CSS3 Bootstrap, ReactJS, Git Heroku, Linux",
-            "Technologies": "Object-Oriented Programming Design Patterns by GoF SOLID principles DRY, KISS, YAGNI, TDA principles, Test-DrivenDevelopment, CloudC omputing, REST"
         }
     }
 }

@@ -76,7 +76,7 @@ header{
     p{
       width: 50%;
       margin: auto;
-      font: 20px/1.1em 'Libre Baskerville';
+      font: 20px/1.1em 'Open Sans 300';
       line-height: 1.2;
       letter-spacing: 2px;
       color: white;
@@ -141,4 +141,63 @@ header{
 
   }
  
+}
+
+#resume{
+
+    margin: auto;
+    background-color: white;
+    font: 1em 'Open Sans 300', sans-serif;
+   .container{
+     width: 70% !important;
+     .resume-text{
+       h3 {
+         text-transform: uppercase;
+         font: 1.5em 'Open Sans Condensed', bold;
+
+         span {
+           border-bottom: 3px solid lightseagreen;
+           padding-bottom: 6px;
+         }
+
+       }
+       .element {
+         margin: 10px;
+         h4 {
+           font: 1.7em "Open Sans Bold", sans-serif;
+         }
+
+         i {
+           font: 1em "Libre Baskerville Italic";
+           color: grey;
+           margin: 0px 5px;
+         }
+
+         span {
+           margin: 0px 5px;
+           color: grey;
+           font-width: bold;
+         }
+
+         p {
+          margin-top: 1em;
+           line-height: 2em;
+           color: grey;
+         }
+        ul{
+          list-style: none;
+          line-height: 2em;
+          li{
+            color: grey;
+
+          }
+        }
+         .languages li{
+           display:inline;
+           margin-right: 3em;
+         }
+
+       }
+     }
+   }
 }

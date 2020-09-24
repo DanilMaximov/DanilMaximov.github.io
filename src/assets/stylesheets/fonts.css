@@ -69,7 +69,7 @@
   @font-face {
     font-family: 'Libre Baskerville Italic';
     font-style: italic;
-    font-weight: 400;
+    font-weight: 100;
     src: url('../fonts/librebaskerville/libre-baskerville-v7-latin-italic.eot'); /* IE9 Compat Modes */
     src: local('Libre Baskerville Italic'), local('LibreBaskerville-Italic'),
          url('../fonts/librebaskerville/libre-baskerville-v7-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
