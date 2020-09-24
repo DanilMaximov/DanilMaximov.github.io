@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f35158ee45b62baa57f4fe0ef79789c1",
+    "revision": "9f74d5bac9878f30e4d8d087ad205901",
     "url": "/index.html"
   },
   {
-    "revision": "f86a807ddff88721345e",
-    "url": "/static/css/main.5dc9a431.chunk.css"
+    "revision": "30fffad8f2148648f566",
+    "url": "/static/css/main.27129746.chunk.css"
   },
   {
-    "revision": "6fb3a21ec188a869cdb7",
-    "url": "/static/js/2.bb3c040a.chunk.js"
+    "revision": "de8304de8f1e58242eca",
+    "url": "/static/js/2.c50f366c.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.bb3c040a.chunk.js.LICENSE.txt"
+    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
+    "url": "/static/js/2.c50f366c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f86a807ddff88721345e",
-    "url": "/static/js/main.5d0af32a.chunk.js"
+    "revision": "30fffad8f2148648f566",
+    "url": "/static/js/main.ba0721a2.chunk.js"
   },
   {
     "revision": "cc311bb40ef18a6c4b33",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1ab5f221525000ff1f379d85f91951bb",
     "url": "/static/media/Resume24-09.1ab5f221.pdf"
+  },
+  {
+    "revision": "bc347476b11ae32dc3b2a84c0fa57a63",
+    "url": "/static/media/kids-club.bc347476.png"
   },
   {
     "revision": "3e79f1aa0372b6b5f1ee8489ebd60de2",
@@ -86,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d15ba972040b09041a17f6a751282dcb",
     "url": "/static/media/libre-baskerville-v7-latin-regular.d15ba972.woff2"
+  },
+  {
+    "revision": "100cfb61a2b4223c6c5638aaef26f7c0",
+    "url": "/static/media/mini-projects.100cfb61.png"
   },
   {
     "revision": "2995f79b3867b14bd70c8511923e3b1d",
@@ -170,5 +178,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f43bda0db879bd6734b5bf568192fc57",
     "url": "/static/media/supernova.f43bda0d.jpg"
+  },
+  {
+    "revision": "c2bb2e308369404c961f7c99882c5e0c",
+    "url": "/static/media/telegram-512.c2bb2e30.webp"
+  },
+  {
+    "revision": "1d594c90eebe3cda296a4e9763d0d02c",
+    "url": "/static/media/vut.1d594c90.jpg"
   }
 ]);
