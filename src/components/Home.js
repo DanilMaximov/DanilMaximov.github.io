@@ -37,7 +37,7 @@ export default function Home(){
             <div className="banner">
                 <div className="banner-text">
                 <h1 className="display-1">{t('home.title')}</h1>
-                <p><Trans i18nKey="home.introduction" components={{bold: <strong />}}/></p>
+                <p><Trans i18nKey="home.introduction" components={{span: <span />}}/></p>
                 <hr></hr>
                 <ul className="social-icons center">
                     <li><a href="https://www.linkedin.com/in/nerbyk/"><GrLinkedinOption /></a></li>

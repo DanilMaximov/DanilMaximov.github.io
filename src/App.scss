@@ -48,13 +48,13 @@ section{
 
 header{
   position: relative;
-  height: 934px;
+  height: 950px;
   min-height: 500px;
   width: 100%;
   background: #161415 url(./assets/images/supernova.jpg) no-repeat top center;
   background-size: cover !important;
- -webkit-background-size: cover !important;
-  text-align: center;
+  
+  text-align: center ;
   overflow: hidden;
   .banner {
     @extend .center;
@@ -62,9 +62,8 @@ header{
     width: 85%;
     padding-bottom: 30px;
     text-align: center;
- }
- .banner{
-   padding-top: 15%;
+    padding-top: 15%;
+
   .banner-text{
     
     h1{
@@ -80,10 +79,9 @@ header{
       font: 20px/1.1em 'Libre Baskerville';
       line-height: 1.2;
       letter-spacing: 2px;
-      color: grey;
-      strong{
-        color: white;
-        font-weight: normal;
+      color: white;
+      span{
+        color: lightseagreen;
       }
     }
     hr {
@@ -112,4 +110,35 @@ header{
   }
 }
 }
-  
+
+#about{
+  .about-text{
+    padding-top: 5%;
+    margin: auto;
+    color: white;
+    font: 'Open Sans', sans-serif;  
+    width: 70%;  
+    h3{
+      font-size: 1.5em;
+      font-weight: bold;
+      color: white; 
+    }
+    p{
+      margin: 0;
+      font-size: 1.05em;
+      color: grey;
+      line-height: 1.7;
+    }
+    .row{
+      margin-top: 1em;
+      a{
+        span{
+          font-weight: bold;
+          margin-left: 10px;
+        }
+      }
+    }
+
+  }
+ 
+}
