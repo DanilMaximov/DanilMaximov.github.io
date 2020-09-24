@@ -2,7 +2,7 @@
   "name": "nerbyk-github-io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Nerbyk.github.io/Nerbyk.github.io",
+  "homepage": "http://Nerbyk.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -15,6 +15,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-i18next": "^11.7.3",
+    "react-icons": "^3.11.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {

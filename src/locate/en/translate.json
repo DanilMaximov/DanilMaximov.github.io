@@ -9,7 +9,7 @@
 
         "home": {
             "title": "I'm Danil Maksimov.",
-            "introduction": "I'm full-stack web developer living in Brno, Czech Republic. You can learn more about me in mine ReactJS based resume"
+            "introduction": "I'm <strong>full-stack web developer</strong> living in Brno, Czech Republic. You can learn more about me in mine <strong>ReactJS</strong> based resume"
         },
         "about": {
             "title": "About me",

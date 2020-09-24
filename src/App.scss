@@ -2,9 +2,19 @@
 
 @import url("./assets/stylesheets/fonts.css");
 
+// Elements 
 
 body {
   background-color: #2B2B2B;
+  
+}
+
+section{
+  padding: 50px 0;
+}
+
+.center {
+  text-align: center;
 }
 
 .navbar {
@@ -34,3 +44,72 @@ body {
   
 }
 
+// Home 
+
+header{
+  position: relative;
+  height: 934px;
+  min-height: 500px;
+  width: 100%;
+  background: #161415 url(./assets/images/supernova.jpg) no-repeat top center;
+  background-size: cover !important;
+ -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+  .banner {
+    @extend .center;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
+ }
+ .banner{
+   padding-top: 15%;
+  .banner-text{
+    
+    h1{
+      font: 90px/1.1em 'Open Sans Bold', sans-serif;
+      color: #fff;
+      letter-spacing: -2px;
+      margin: 0 auto 18px auto;
+      text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+    }
+    p{
+      width: 50%;
+      margin: auto;
+      font: 20px/1.1em 'Libre Baskerville';
+      line-height: 1.2;
+      letter-spacing: 2px;
+      color: grey;
+      strong{
+        color: white;
+        font-weight: normal;
+      }
+    }
+    hr {
+      width: 50%;
+      margin: 18px auto 24px auto;
+      border-color: #2F2D2E;
+      border-color: rgba(150, 150, 150, .1);
+    }
+    .social-icons{
+      
+      list-style-type: none;
+      font-size: 25px;
+      overflow: hidden; 
+      li{
+        display:inline;
+        margin: 7px;
+        a{
+          color: white;
+          &:hover{
+            color: lightcoral;
+            
+          }
+        }
+      }
+    }
+  }
+}
+}
+  
