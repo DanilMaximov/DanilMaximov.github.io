@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f74d5bac9878f30e4d8d087ad205901",
+    "revision": "01dd46e734196d37c62f79f9cbbbd484",
     "url": "/index.html"
   },
   {
-    "revision": "30fffad8f2148648f566",
-    "url": "/static/css/main.27129746.chunk.css"
+    "revision": "e7e977fd64eacbe4429d",
+    "url": "/static/css/main.3382ac2d.chunk.css"
   },
   {
-    "revision": "de8304de8f1e58242eca",
-    "url": "/static/js/2.c50f366c.chunk.js"
+    "revision": "e9f9ccb526b662b66fd4",
+    "url": "/static/js/2.e2938e19.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.c50f366c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e2938e19.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30fffad8f2148648f566",
-    "url": "/static/js/main.ba0721a2.chunk.js"
+    "revision": "e7e977fd64eacbe4429d",
+    "url": "/static/js/main.ab6940ce.chunk.js"
   },
   {
     "revision": "cc311bb40ef18a6c4b33",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bc347476b11ae32dc3b2a84c0fa57a63",
     "url": "/static/media/kids-club.bc347476.png"
+  },
+  {
+    "revision": "914ca6cb6bb03a154e842e44d8e30e6d",
+    "url": "/static/media/kidsClub_project.914ca6cb.png"
   },
   {
     "revision": "3e79f1aa0372b6b5f1ee8489ebd60de2",
@@ -94,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "100cfb61a2b4223c6c5638aaef26f7c0",
     "url": "/static/media/mini-projects.100cfb61.png"
+  },
+  {
+    "revision": "dedc6dfd4d4a970e85cc9dbdee0933b6",
+    "url": "/static/media/miniProjects_project.dedc6dfd.png"
   },
   {
     "revision": "2995f79b3867b14bd70c8511923e3b1d",
@@ -176,12 +184,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/open-sans-v17-latin-regular.de0869e3.woff"
   },
   {
+    "revision": "7a00f461c21c12c8845b9a4351319103",
+    "url": "/static/media/skamvut_project.7a00f461.png"
+  },
+  {
     "revision": "f43bda0db879bd6734b5bf568192fc57",
     "url": "/static/media/supernova.f43bda0d.jpg"
   },
   {
     "revision": "c2bb2e308369404c961f7c99882c5e0c",
     "url": "/static/media/telegram-512.c2bb2e30.webp"
+  },
+  {
+    "revision": "5330282296d7b4a5e65d7211963a69aa",
+    "url": "/static/media/telegram_project.53302822.png"
   },
   {
     "revision": "1d594c90eebe3cda296a4e9763d0d02c",
