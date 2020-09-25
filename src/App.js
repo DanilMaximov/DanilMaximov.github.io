@@ -4,6 +4,8 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Works from './components/Works';
 import Footer from "./components/Footer";
+
+
 export default function App(){
     return (
         <>

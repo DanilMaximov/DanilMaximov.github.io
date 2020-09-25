@@ -8,6 +8,10 @@ body {
   background-color: #2B2B2B;
   
 }
+a:hover{
+  transition: 0.3s;
+  text-decoration: none;
+}
 
 section{
   padding: 50px 0;
@@ -22,13 +26,18 @@ section{
   font-family: 'Open Sans Bold';
   letter-spacing: 2.5px;
   outline: none;
-  color: white;
+  color: lightseagreen;
   span{
-    color: white;
+    color: lightseagreen;
+    margin: 0.5em;
     &:hover{
-      color: lightseagreen;
+      color: orange;
+      cursor: pointer;
+      transition: 0.3s;
     }
   }
+  
+  
   .language-select{
     select {
       text-transform: uppercase;
@@ -37,7 +46,12 @@ section{
       min-width: 0%;
       background-color: rgba(0, 0, 0, 0);
       border: 0px;
-      color: white;
+      color: lightseagreen;
+      &:hover{
+        color: orange;
+      cursor: pointer;
+      transition: 0.3s;
+      }
       option {
         color: black;
       }
@@ -53,7 +67,7 @@ header{
   height: 100vh;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(./assets/images/supernova.jpg) no-repeat top center;
+  background: #161415 url(./assets/images/232001.jpg) no-repeat top center;
   background-size: cover !important;
   
   text-align: center ;
@@ -65,7 +79,30 @@ header{
     padding-bottom: 30px;
     text-align: center;
     padding-top: 15%;
-
+    .scroll-button{
+      position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 100%;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+      &:hover{
+        color: lightseagreen;
+        cursor: pointer;
+        transition: 0.3s;
+        
+      }
+    }
   .banner-text{
     
     h1{
@@ -108,12 +145,12 @@ header{
     a{
       color: white;
       &:hover{
-        color: lightcoral;
-        transition: 0.3s;
+        color: lightseagreen;
       }
     }
   }
 }
+
 #about{
   .about-text{
     padding-top: 0;
@@ -135,6 +172,9 @@ header{
     .row{
       margin-top: 1em;
       a{
+        &:hover{
+          transition: 0.7s;
+        }
         span{
           font-weight: bold;
           margin-left: 10px;
@@ -295,7 +335,7 @@ header{
       cursor: pointer;
       &:hover{
         color: lightseagreen;
-        text-decoration: none;
+       
       }
     }
   }
@@ -314,7 +354,7 @@ footer{
     }
   }
   .home-button{
-    a {
+      
       color: lightseagreen;
       font-size: 5em;
       padding: 0;
@@ -322,9 +362,11 @@ footer{
       top: -45px;
       &:hover{
         color: lightcyan;
+        cursor: pointer;
         transition: 0.3s;
+        
       }
-    }
+    
   }
   p{
     margin-top: 1em;
@@ -333,7 +375,7 @@ footer{
     a{
       color: gainsboro;
       &:hover{
-        text-decoration: none;
+        
         font-weight: bold;
         transition: 0.3s;
         color: white;
@@ -352,13 +394,47 @@ footer{
       p{
         width: 100%;
       }
+
+      
+    }
+
+    #nav-toggle{
+      margin-left: 85%;
+      font-size: 0.5em;
+      background-color: lightseagreen;
+      border-color: orange;
+    }
+    .toggle-items{
+        span{
+          color: lightseagreen;
+          &:hover{
+           color: orange;
+          }
+        }
+        .language-select{
+          width: 20%;
+          margin: auto;
+          select{
+            color: lightseagreen;
+          }
+        }
     }
   }
+
+  .social-icons{
+    li a{
+      color: lightseagreen; 
+      &:hover{
+        color: white;
+      }
+    }
+  }
+
   #about{
     text-align: center;
     margin: 0;
     .about-text{
-    
+      
       width: 100%;
     }
     a{

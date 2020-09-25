@@ -4,12 +4,16 @@ import {IoIosArrowDropupCircle} from 'react-icons/io'
 import {GrLinkedinOption} from "react-icons/gr";
 import {FaTelegramPlane} from "react-icons/fa";
 import {GoMarkGithub} from "react-icons/go";
+import Scroll from 'react-scroll';
 export default function Footer() {
     const {t} = useTranslation();
+    const Link = Scroll.Link;
     return (
         <footer id="footer">
             <div className="container">
-                <div className="home-button center"> <a href="#home"><IoIosArrowDropupCircle/> </a></div>
+                <div className="home-button center"> 
+                  <Link to="home" spy={true} smooth={true} duration={1000}><IoIosArrowDropupCircle/></Link>
+                </div>
                 <ul className="social-icons center">
                     <li><a href="https://www.linkedin.com/in/nerbyk/"><GrLinkedinOption /></a></li>
                     <li><a href="https://t.me/nerby1"><FaTelegramPlane /></a></li>
