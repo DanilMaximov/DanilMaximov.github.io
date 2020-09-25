@@ -71,7 +71,7 @@ export default function Works() {
                     <Col>
                         <div className="project-logo">
 
-                            <img src={miniProjects} className="miniProjects"  />
+                            <img src={miniProjects} className="miniProjects" />
 
                             <div className="about-project" id="miniProjects" onClick={handleShow}>
                                 <h3>{t('works.miniProjects.title')}</h3>

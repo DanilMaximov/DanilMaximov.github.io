@@ -11,11 +11,11 @@ export default function Home(){
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
       }
+  
     return(
         <header id="home">
             <div className="react-nav center">
                 <Navbar dark expand="lg" fixed="top">
-
                     <Navbar.Toggle aria-controls="basic-navbar-nav center" />
                     <Navbar.Collapse id="light-navbar-nav center">
                         <Nav className="mx-auto">

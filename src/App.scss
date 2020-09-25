@@ -50,7 +50,7 @@ section{
 
 header{
   position: relative;
-  height: 950px;
+  height: 100vh;
   min-height: 500px;
   width: 100%;
   background: #161415 url(./assets/images/supernova.jpg) no-repeat top center;
@@ -74,8 +74,8 @@ header{
       letter-spacing: -2px;
       margin: 0 auto 18px auto;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
-    }
-    p{
+    }       
+    p{      
       width: 50%;
       margin: auto;
       font: 20px/1.1em 'Open Sans 300';
@@ -116,7 +116,7 @@ header{
 }
 #about{
   .about-text{
-    padding-top: 5%;
+    padding-top: 0;
     margin: auto;
     color: white;
     font: 'Open Sans', sans-serif;  
@@ -344,5 +344,77 @@ footer{
 
 
 @media only screen and (max-width: 480px){
+  #home{
+    h1{
+      font-size: 5rem;
+    }
+    .banner{
+      p{
+        width: 100%;
+      }
+    }
+  }
+  #about{
+    text-align: center;
+    margin: 0;
+    .about-text{
+    
+      width: 100%;
+    }
+    a{
+      margin-top: 2em;
+    }
+  }
 
+  #resume{
+    .container{
+      width: 100% !important;
+    .row{
+      
+      display: inline-block;
+      
+      .col-8{
+        margin: 2em auto;
+        padding: 0;
+        .element{
+          width: 100%;
+          span{
+            display: block;
+          }
+          ul{
+            padding: 0;
+            display: inline;
+            li{ 
+              display: inline-block;
+            }
+          }
+          .languages{
+            ul{
+              li{
+               
+              }
+            }
+          }
+        }
+      }
+      .col-4{
+        margin: 0 1em;
+        padding: 0;       
+        font-size: 1.5em;
+      }
+      
+    }
+   
+  }
+}
+
+#works{
+  .row{
+    display: block;
+    margin: auto;
+    .col{
+      margin-top: 2em;  
+    }
+  }
+}
 }
