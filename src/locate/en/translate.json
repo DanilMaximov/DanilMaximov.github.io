@@ -78,26 +78,26 @@
             "telegram": {
                 "role": "Ruby Developer",
                 "title": "Exam Doc's Bot",
-                "content": "",
-                "technologies": ""
+                "content": "Multi-international telegram bot with highload (posibly 12k user requests per second). Managed to analyze business features even going beyond what was requested from the client",
+                "technologies": "Ruby, Telegram API, VK API, Sequel(ORM), RSpec"
             },
             "kidsClub": {
                 "role": "Full Stack Developer",
                 "title": "Kids Club",
-                "content": "",
-                "technologies": ""
+                "content": "Simple landing web-site with connected Telegram-bot which sends all requests from user to a client.",
+                "technologies": "Ruby on Rails, HTML, CSS, Bootstrap, Telegram API"
             },
             "miniProjects": {
                 "role": "Front End Developer",
                 "title": "mini-projects-js",
-                "content": "",
-                "technologies": ""
+                "content": "Here I implemented various projects using nothing but HTML5, CSS & JavaScript. No JS or CSS frameworks, no libraries, etc.",
+                "technologies": "JavaScript, CSS, HTML"
             },
             "skamvut": {
                 "role": "Back End Developer / Ruby Developer",
                 "title": "accommodation bot",
-                "content": "",
-                "technologies": ""
+                "content": "Private rails-based telegram bot for students of Brno University of Technologies. Provides convenient access to Database of students living in University Accommodation. Database forms via POST requests on the website of the information system, which can only be accessed by students living in university dormitories.",
+                "technologies": "REST, Ruby on Rails, Telegram API, PostgreSQL"
             }
         }
     }

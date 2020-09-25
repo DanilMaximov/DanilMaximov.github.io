@@ -17,7 +17,7 @@ export default function About(){
                         <p>{insertLineBrakes(t('about.contacts.content'))}</p>
                     </div>
                     <div class="col-sm">
-                        <a href={MyResume} class="btn btn-outline-light  btn-lg" download='Resume_Danil_Maksimov.pdf'><FaDownload /> <span>{t('about.resume')}</span></a>
+                        <a href={MyResume} className="btn btn-outline-light  btn-lg" download='Resume_Danil_Maksimov.pdf'><FaDownload /> <span>{t('about.resume')}</span></a>
                     </div>
                 </div>
             </div>
