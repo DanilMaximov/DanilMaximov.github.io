@@ -75,6 +75,7 @@
         },
         "works": {
             "title": "Check out of some of my works.",
+            "heading": "Check out some of my works",
             "telegram": {
                 "role": "Ruby Developer",
                 "title": "Exam Doc's Bot",

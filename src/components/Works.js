@@ -37,10 +37,11 @@ export default function Works() {
     return (
         <section id="works">
             <div className="container">
+                <h4>{t('works.heading')}</h4>
                 <Row className="projects center">
                     <Col>
                         <div className="project-logo">
-                            <img src={vut}/>
+                            <img src={vut} alt="VUT logo"/>
                             <div className="about-project" id="skamvut" onClick={handleShow}>
                                 <h3>{t('works.skamvut.title')}</h3>
                                 <h4>{t('works.skamvut.role')}</h4>
@@ -50,7 +51,7 @@ export default function Works() {
                     </Col>
                     <Col>
                         <div className="project-logo" >
-                             <img src={telegram}/>
+                             <img src={telegram} alt="Telegram Logo"/>
                             <div className="about-project" id="telegram" onClick={handleShow}>
                                 <h3>{t('works.telegram.title')}</h3>
                                 <h4>{t('works.telegram.role')}</h4>
@@ -60,7 +61,7 @@ export default function Works() {
                     </Col>
                     <Col>
                         <div className="project-logo">
-                            <img src={kidsClub}/>
+                            <img src={kidsClub} alt="Kids-Club Logo"/>
                             <div className="about-project" id="kidsClub" onClick={handleShow}>
                                 <h3>{t('works.kidsClub.title')}</h3>
                                 <h4>{t('works.kidsClub.role')}</h4>
@@ -69,14 +70,14 @@ export default function Works() {
                         </div>
                     </Col>
                     <Col>
-                        <div className="project-logo">
+                        <div className="project-logo" >
 
-                            <img src={miniProjects} className="miniProjects" />
+                            <img src={miniProjects} alt="JS logo" className="miniProjects"/>
 
-                            <div className="about-project" id="miniProjects" onClick={handleShow}>
+                            <div className="about-project" id="miniProjects" onClick={handleShow}  >
                                 <h3>{t('works.miniProjects.title')}</h3>
                                 <h4>{t('works.miniProjects.role')}</h4>
-                                <GoPlus className="plus-icon"/>
+                                <GoPlus className="plus-icon" />
                             </div>
                         </div>
                     </Col>
@@ -85,7 +86,7 @@ export default function Works() {
                         {show &&
                             <>
                             <Modal.Body>
-                                <img src={projectImages[show]} />
+                                <img src={projectImages[show]} alt="project_image" />
                                 <div className="modal-text">
                                     <h3>{t(`works.${show}.title`)}</h3>
                                     <p>{t(`works.${show}.content`)}</p>

@@ -13,11 +13,39 @@ export default function Home(){
         i18n.changeLanguage(lng);
       }
     const Link = Scroll.Link;
+    
+    // hider || color changer of navbar 
+    if (typeof window !== 'undefined') {
+      let prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        if(document.body.clientWidth > 980){
+        const maxScroll = document.body.clientHeight - window.innerHeight;
+        let currentScrollPos = window.pageYOffset;
+        if (
+            (maxScroll > 0 && prevScrollpos > currentScrollPos && prevScrollpos <= maxScroll) 
+          || (maxScroll <= 0 && prevScrollpos > currentScrollPos)
+          || (prevScrollpos <= 0 && currentScrollPos <= 0)
+          ) {
+          document.getElementById("navbar").style.top = "0";
+          document.getElementById("navbar").style.backgroundColor = "#2B2B2B";
+
+        }
+        else {
+          document.getElementById("navbar").style.top = "-5.0rem";
+        } 
+        if(currentScrollPos === 0){
+          console.log("home")
+          document.getElementById("navbar").style.backgroundColor = "transparent";
+        } 
+        prevScrollpos = currentScrollPos;
+      }
+      }
+    }
   
     return(
         <header id="home" data-spy="scroll" data-target="scrollSpy" data-offset="20">
             <div className="react-nav center">
-                <Navbar dark expand="lg" fixed="top">
+                <Navbar dark expand="lg" fixed="top" id="navbar">
                     <Navbar.Toggle id="nav-toggle" aria-controls="basic-navbar-nav center" />
                     <Navbar.Collapse id="light-navbar-nav" className="toggle-items center">
                         <Nav className="mx-auto" id="scrollSpy">
@@ -26,7 +54,7 @@ export default function Home(){
                                 <span>{t('nav.home')}</span>
                               </Link>
                             </NavItem>
-
+                    
                             <NavItem  eventKey={1}  href="#about">
                               <Link to="about" spy={true} smooth={true} duration={500}>
                                 <span>{t('nav.about')}</span>
@@ -42,13 +70,13 @@ export default function Home(){
                                 <span>{t('nav.works')}</span>
                               </Link>
                             </NavItem>
-                            <Nav className="language-select" >
+                            <NavItem className="language-select" >
                                 <select onChange= {(e) => changeLanguage(e.target.value)}>
                                     <option value="en">English</option>
                                     <option value="cz">Czech</option>
-                                    <option value="ru">Russian</option>
+                                    <option value="ru">Russian</option> 
                                 </select>
-                            </Nav>
+                            </NavItem>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

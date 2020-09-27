@@ -28,10 +28,10 @@ section{
   outline: none;
   color: lightseagreen;
   span{
-    color: lightseagreen;
+    color: white;
     margin: 0.5em;
     &:hover{
-      color: orange;
+      color: lightseagreen;
       cursor: pointer;
       transition: 0.3s;
     }
@@ -46,9 +46,9 @@ section{
       min-width: 0%;
       background-color: rgba(0, 0, 0, 0);
       border: 0px;
-      color: lightseagreen;
+      color: white;
       &:hover{
-        color: orange;
+        color: lightseagreen;
       cursor: pointer;
       transition: 0.3s;
       }
@@ -63,6 +63,9 @@ section{
 // Home 
 
 header{
+  #navbar {
+    transition: 1s;
+  }
   position: relative;
   height: 100vh;
   min-height: 500px;
@@ -219,7 +222,7 @@ header{
          span {
            margin: 0px 5px;
            color: grey;
-           font-width: bold;
+           font-weight: bold;
          }
 
          p {
@@ -247,8 +250,15 @@ header{
 
 #works{
   background-color: lightcyan;
+  h4{
+    text-align: center;
+    font: 1em "Open Sans", sans-serif;
+    color: lightslategrey;
+    text-transform: uppercase;
+
+  }
   .projects{
-    padding: 10% 0;
+    padding: 6% 0;
     .about-project{
       color: white;
       position: absolute;
@@ -342,6 +352,7 @@ header{
 }
 
 footer{
+  margin-top: 70px;
     .social-icons{
     li{
       margin-right: 50px;
@@ -357,16 +368,17 @@ footer{
       
       color: lightseagreen;
       font-size: 5em;
-      padding: 0;
-      position: relative;
-      top: -45px;
-      &:hover{
-        color: lightcyan;
-        cursor: pointer;
-        transition: 0.3s;
-        
-      }
-    
+      position: absolute;
+      top: 377%;
+      left: 50%;
+      margin-left: -30px;
+    &:hover{
+      color: lightcyan;
+      cursor: pointer;
+      transition: 0.3s;
+      
+    }
+  
   }
   p{
     margin-top: 1em;
@@ -387,6 +399,7 @@ footer{
 
 @media only screen and (max-width: 480px){
   #home{
+    background: #161415 url(./assets/images/mobile-background.jpeg) no-repeat center top;
     h1{
       font-size: 5rem;
     }
@@ -402,20 +415,31 @@ footer{
       margin-left: 85%;
       font-size: 0.5em;
       background-color: lightseagreen;
-      border-color: orange;
+     
     }
     .toggle-items{
+      background-color: #1F2024;
+      margin: 20px 5%;
+      padding: 20px;
+      text-align: left;
+      .nav-item{
+        
+        border-bottom: 1px solid #2D2E34;
+        border-bottom-style: dotted;
+        margin: 0.2em 0;  
+        padding: 0 4%;
+      }
         span{
-          color: lightseagreen;
+
+          color: white; 
           &:hover{
-           color: orange;
+           color: lightseagreen;
           }
         }
         .language-select{
-          width: 20%;
-          margin: auto;
           select{
-            color: lightseagreen;
+            color: white;
+            margin-left: 5px;
           }
         }
     }
@@ -493,4 +517,55 @@ footer{
     }
   }
 }
+.home-button{
+  display: none;
 }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 980px){ 
+  #home {
+  #nav-toggle{
+    margin-left: 85%;
+    font-size: 0.5em;
+    background-color: lightseagreen;
+   
+  }
+  .toggle-items{
+    background-color: #1F2024;
+    margin: 20px 5%;
+    padding: 20px;
+    text-align: left;
+    .nav-item{
+      
+      border-bottom: 1px solid #2D2E34;
+      border-bottom-style: dotted;
+      margin: 0.2em 0;  
+      padding: 0 4%;
+    }
+      span{
+
+        color: white; 
+        &:hover{
+         color: lightseagreen;
+        }
+      }
+      .language-select{
+        select{
+          color: white;
+          margin-left: 5px;
+        }
+      }
+  }
+  }
+
+  #works{
+    .row{
+      display: block;
+      margin: auto;
+      .col{
+        margin-top: 2em;  
+      }
+    }
+  }
+}
+
