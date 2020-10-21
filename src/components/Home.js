@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Trans, useTranslation } from 'react-i18next';
 import { GrLinkedinOption } from 'react-icons/gr';
 import { FaTelegramPlane } from 'react-icons/fa';
@@ -13,7 +13,7 @@ export default function Home(){
         i18n.changeLanguage(lng);
       }
     const Link = Scroll.Link;
-    
+
     // hider || color changer of navbar 
     if (typeof window !== 'undefined') {
       let prevScrollpos = window.pageYOffset;
@@ -48,7 +48,7 @@ export default function Home(){
                 <Navbar dark expand="lg" fixed="top" id="navbar">
                     <Navbar.Toggle id="nav-toggle" aria-controls="basic-navbar-nav center" />
                     <Navbar.Collapse id="light-navbar-nav" className="toggle-items center">
-                        <Nav className="mx-auto" id="scrollSpy">
+                        <Nav className="mx-auto" >
                             <NavItem  eventKey={1}  href="#home">
                               <Link to="home" spy={true} smooth={true} duration={500}>
                                 <span>{t('nav.home')}</span>

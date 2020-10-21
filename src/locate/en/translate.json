@@ -52,7 +52,7 @@
                     "title": "Full Stack",
                     "position": "Fullstack web-developer",
                     "range": "July 2020 - Present",
-                    "intro": "Maintaining and Refactoring previous projects, deepening into Front-End development together with JavaScript, ReactJS and Functional Programming. Designed and developed several projects as a Full Stack Developer with a help of Rails and React"
+                    "intro": "Maintaining and Refactoring previous projects. Worked on several projects where was designing API’s as server side coupled with Component Based client side including such tools as Ruby on Rails(REST/GraphQL API’s), dry-rb, ElasticSearch, RSpec, React(functional approach), Redux"
                 }
             },
             "skills":{
@@ -64,11 +64,11 @@
 
                 "tools": {
                     "title": "Tools",
-                    "content": "Ruby on Rails, RSpec, dry-rb; ORM (ActiveRecorder, Sequel); HTML5, CSS3, Bootstrap, ReactJS; Git, Heroku, Linux"
+                    "content": "Ruby on Rails, RSpec, dry-rb, ElasticSearch; ORM (ActiveRecorder, Sequel); HTML5, CSS3, Bootstrap; React, Redux, Axios; Git, Heroku, Linux"
                 },
                 "technologies":{
                     "title": "Technologies",
-                   "content": "Object-Oriented Programming; Design Patterns by GoF; SOLID, DRY, KISS, YAGNI, TDA principles; Functional Programming; Test-Driven Development; Cloud Computing; REST"
+                   "content": "Object-Oriented Programming; Design Patterns by GoF; SOLID, DRY, KISS, YAGNI, TDA principles; Functional Programming; Test-Driven Development; Cloud Computing; REST, GraphQL"
                 }
 
             }
@@ -82,11 +82,11 @@
                 "content": "Multi-international telegram bot with highload (posibly 12k user requests per second). Managed to analyze business features even going beyond what was requested from the client",
                 "technologies": "Ruby, Telegram API, VK API, Sequel(ORM), RSpec"
             },
-            "kidsClub": {
+            "webScraper": {
                 "role": "Full Stack Developer",
-                "title": "Kids Club",
-                "content": "Simple landing web-site with connected Telegram-bot which sends all requests from user to a client.",
-                "technologies": "Ruby on Rails, HTML, CSS, Bootstrap, Telegram API"
+                "title": "Web Scraper",
+                "content": "Minimalistic, Highly Scaled Web Scraper with wide range of functionality designed to scrape web-sites of any type with recaptcha avoiding system.",
+                "technologies": "Ruby on Rails, ElasticSearch, REST API, React, Redux, Axios"
             },
             "miniProjects": {
                 "role": "Front End Developer",

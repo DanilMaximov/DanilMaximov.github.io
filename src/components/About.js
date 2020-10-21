@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 import {FaDownload} from 'react-icons/fa';
-import MyResume from '../cv/Resume24-09.pdf';
+import MyResume from '../cv/Resume.pdf';
 export default function About(){
     const insertLineBrakes = (translation) => translation.split('\n').map(line => <p>{line}</p>);
     const {t} = useTranslation();

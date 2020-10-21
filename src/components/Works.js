@@ -3,10 +3,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Modal from "react-bootstrap/Modal";
 import telegram from "../assets/images/projects/telegram-512.webp";
-import kidsClub from "../assets/images/projects/kids-club.png";
+import webScraper from "../assets/images/projects/web-scraper.png";
 import miniProjects from "../assets/images/projects/mini-projects.png";
 import telegram_project from "../assets/images/projects/telegram_project.png";
-import kidsClub_project from "../assets/images/projects/kidsClub_project.png";
+import webScraper_project from "../assets/images/projects/web-scraper_project.png";
 import miniProjects_project from "../assets/images/projects/miniProjects_project.png";
 import skamvut_project from "../assets/images/projects/skamvut_project.png";
 import vut from "../assets/images/projects/vut.jpg";
@@ -21,13 +21,13 @@ export default function Works() {
     const [show, setShow] = useState(false);
     const projectImages = {
         telegram: telegram_project,
-        kidsClub : kidsClub_project,
+        webScraper : webScraper_project,
         miniProjects : miniProjects_project,
         skamvut : skamvut_project
     }
     const projectLinks = {
         telegram: "https://github.com/Nerbyk/Telegram-Bot-Exam-Papers-Sender-v2.0",
-        kidsClub : "https://github.com/Nerbyk/Kids-Club",
+        webScraper : "https://github.com/Nerbyk/Web-Scraper",
         miniProjects : "https://github.com/Nerbyk/mini-projects-js",
         skamvut : "https://github.com/Nerbyk/accommodation-bot"
     }
@@ -61,10 +61,10 @@ export default function Works() {
                     </Col>
                     <Col>
                         <div className="project-logo">
-                            <img src={kidsClub} alt="Kids-Club Logo"/>
-                            <div className="about-project" id="kidsClub" onClick={handleShow}>
-                                <h3>{t('works.kidsClub.title')}</h3>
-                                <h4>{t('works.kidsClub.role')}</h4>
+                            <img src={webScraper} alt="Web-Scraper logo"/>
+                            <div className="about-project" id="webScraper" onClick={handleShow}>
+                                <h3>{t('works.webScraper.title')}</h3>
+                                <h4>{t('works.webScraper.role')}</h4>
                                 <GoPlus className="plus-icon"/>
                             </div>
                         </div>
