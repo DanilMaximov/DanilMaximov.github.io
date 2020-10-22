@@ -1,7 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 
-@import url("./assets/stylesheets/fonts.css");
-
 // Elements 
 
 body {
@@ -23,8 +21,9 @@ section{
 
 .react-nav{
   text-transform: uppercase;
-  font-family: 'Open Sans Bold';
-  letter-spacing: 2.5px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  letter-spacing: 1px;
   outline: none;
   color: lightseagreen;
   span{
@@ -40,6 +39,8 @@ section{
   
   .language-select{
     select {
+      font-family: 'Open Sans';
+      font-weight: 700;
       text-transform: uppercase;
       width: 100%;
       outline: none;
@@ -109,7 +110,8 @@ header{
   .banner-text{
     
     h1{
-      font: 90px/1.1em 'Open Sans Bold', sans-serif;
+      font: 90px/1.1em 'Open Sans', sans-serif;
+      font-weight: 300;
       color: #fff;
       letter-spacing: -2px;
       margin: 0 auto 18px auto;
@@ -118,7 +120,8 @@ header{
     p{      
       width: 50%;
       margin: auto;
-      font: 20px/1.1em 'Open Sans 300';
+      font: 20px/1.1em 'Open Sans', 'sans-serif';
+      font-weight: 300;
       line-height: 1.2;
       letter-spacing: 2px;
       color: white;
@@ -160,10 +163,11 @@ header{
     margin: auto;
     color: white;
     font: 'Open Sans', sans-serif;  
+    font-weight: 300;
     width: 70%;  
     h3{
       font-size: 1.5em;
-      font-weight: bold;
+      font-weight: 700;
       color: white; 
     }
     p{
@@ -193,13 +197,15 @@ header{
 
     margin: auto;
     background-color: white;
-    font: 1em 'Open Sans 300', sans-serif;
+    font: 1em 'Open Sans', sans-serif;
+    font-weight: 300;
    .container{
      width: 70% !important;
      .resume-text{
        h3 {
          text-transform: uppercase;
-         font: 1.5em 'Open Sans Condensed', bold;
+         font: 1.5em 'Open Sans';
+         font-weight: 600;
 
          span {
            border-bottom: 3px solid lightseagreen;
@@ -210,11 +216,16 @@ header{
        .element {
          margin: 10px;
          h4 {
-           font: 1.7em "Open Sans Bold", sans-serif;
+           font: 1.7em "Open Sans", sans-serif;
+           font-weight: 500;
          }
 
          i {
-           font: 1em "Libre Baskerville Italic";
+           font: 1em "Playfair Display", 'serif';
+           font-style: italic;
+           font-weight: 500;
+           letter-spacing: 0.2px;
+          
            color: grey;
            margin: 0px 5px;
          }
@@ -222,7 +233,7 @@ header{
          span {
            margin: 0px 5px;
            color: grey;
-           font-weight: bold;
+           font-weight: 500;
          }
 
          p {
@@ -253,6 +264,7 @@ header{
   h4{
     text-align: center;
     font: 1em "Open Sans", sans-serif;
+    font-weight: 300;
     color: lightslategrey;
     text-transform: uppercase;
 
@@ -273,10 +285,13 @@ header{
       background-color: black;
       h3{
         margin-top: 5%;
-        font: 1.3em "Open Sans Condensed", sans-serif;
+        font: 1.3em "Open Sans", sans-serif;
+        font-weight: 500;
       }
       h4{
-        font: 0.8em "Open Sans Regular", sans-serif;
+        font: 0.8em "Open Sans", sans-serif;
+        font-weight: 400;
+        margin: 0 10px;
       }
       .plus-icon{
         font-size: 1.5em;
@@ -312,16 +327,19 @@ header{
   .modal-text {
     padding: 1em;
     h3 {
-      font: 1em "Open Sans Bold", sans-serif;
+      font: 1em "Open Sans", sans-serif;
+      font-weight: 700;
     }
 
     p {
       font: 1em "Open Sans", sans-serif;
+      font-weight: 300;
       color: grey;
     }
 
     h4 {
-      font: 1.2em "Open Sans Condensed", sans-serif;
+      font: 1em "Open Sans", sans-serif;
+      font-weight: 400;
       color: grey;
     }
   }
@@ -341,7 +359,8 @@ header{
       background: inherit;
       border: none;
       color: white;
-      font: 1.2em "Open Sans Bold", sans-serif;
+      font: 1.2em "Open Sans", sans-serif;
+      font-weight: 600;
       cursor: pointer;
       &:hover{
         color: lightseagreen;
@@ -383,12 +402,13 @@ footer{
   p{
     margin-top: 1em;
     color: grey;
-    font-family: "Open Sans 300";
+    font-family: "Open Sans";
+    font-weight: 300;
     a{
       color: gainsboro;
       &:hover{
         
-        font-weight: bold;
+        font-weight: 600;
         transition: 0.3s;
         color: white;
       }

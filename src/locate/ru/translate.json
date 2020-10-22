@@ -1,104 +1,105 @@
 {
-  "translations": {
-      "nav": {
-          "home": "Home",
-          "about": "About",
-          "resume": "Resume",
-          "works": "Works"
-      },
+    "translations": {
+        "nav": {
+            "home": "Главная",
+            "about": "Об о Мне",
+            "resume": "Резюме",
+            "works": "Работы"
+        },
 
-      "home": {
-          "title": "I'm Danil Maksimov.",
-          "introduction": "I'm <span>full-stack web developer</span> living in Brno, Czech Republic. You can learn more about me in mine <span>ReactJS</span> based resume"
-      },
-      "about": {
-          "title": "About Me",
-          "intro": "I'm Danil, full-stack developer from Russia, who presently live in Czech Republic. I am ex-student of Information Technologies and a current Self-Learning Practical Software Developer.\nI've been programming since early 2019. I started with C language at the University and soon moved to Ruby and JavaScript. I believe that development is more about problem solving and coding is a background action, so programming language is just a tool to solve specific problems. Based on the knowledge of software engineering I acquired at the university, I try to write clean and reusable code which is easy to maintain.\nOver the past year, I have designed, developed and deployed different types of projects, from projects to automate daily tasks to various freelance and volunteer projects, where I worked as a Full-Stack developer",
-          "contacts": {
-              "title":"Contact Details",
-              "content":"Danil Maksimov\nBrno, Czech Republic\ndanil.maximov2000@gmail.com\n+420 608 129 798"
-          },
-          "resume":"Download English CV"
-      },
-      "resume":{
-          "education": {
-              "title": "Education",
-              "university":{
-                  "title": "Brno University of Technology", 
-                  "status": "Undergraduate in Information Technology",
-                  "graduateDate": "May 2022"
-              },
-              "school": {
-                  "title": "Gymnasium 11 (Samara, Russia)",
-                  "status": "High School Diploma", 
-                  "graduateDate": "May 2018"
-              }
-          },
-          "experience": {
-              "title": "Experience",
-              "university": {
-                  "title": "University",
-                  "position": "C developer",
-                  "range": "May 2019 - December 2019",
-                  "intro": "Acquainted with basics of programming in the statically typed languages including C. Wrote several projects including university projects. Acquainted with software engineering including lifecycle of software, stages of software development, requirements analysis, requirements specification, and methods of software design"
-              },
-              "backend":{
-                  "title": "Back End",
-                  "position": "Backend developer",
-                  "range": "January 2020 - June 2020",
-                  "intro": "Developed several applications on pure Ruby with wide-range functionality. Acquainted with OOP including SOLID, KISS, DRY and YAGNI principles together with Design Patterns by GoF. Developed, scaled, and deployed multi-international telegram bot with high load (posibly 12k user requests per second). Managed to analyze business features even going beyond what was requested from the client"
-              },
-              "fullstack":{
-                  "title": "Full Stack",
-                  "position": "Fullstack web-developer",
-                  "range": "July 2020 - Present",
-                  "intro": "Maintaining and Refactoring previous projects, deepening into Front-End development together with JavaScript, ReactJS and Functional Programming. Designed and developed several projects as a Full Stack Developer with a help of Rails and React"
-              }
-          },
-          "skills":{
-              "title": "Skills",
-              "languages": {
-                  "title": "Languages",
-                  "content": "Ruby; JavaScript; C"
-              },
+        "home": {
+            "title": "Данил Максимов",
+            "introduction": "<span>Full Stack</span> разработчик, проживающий в городе Брно, Чехия. Вы можете узнать больше информации обо мне в моём резюме написанного при помощи фрэймворка <span>React</span>"
+        },
+        "about": {
+            "title": "Об о Мне",
+            "intro": "Меня зовут Данил, я являюсь full-stack разработчиком из России, но в данный момент проживающий в Чехии. Я бывший студент Информационных Технологий при Техническом Университете города Брно и в данный момент являюсь практиком в разработке ПО.\nЯ занимаюсь разработкой с начала 2019 года. Начав с языка Си, вскоре я перешел на Ruby и JavaScript. Я верю, что разработка по большей части о решении задач/проблем, а написание кода лишь побочный эффект, так что язык программирования это всего лишь инструмент для решения опредленных задач. На основе знаний программной инженерии, которые я получил в Университете, я стараюсь писать чистый и реюзабельный код, который легко поддерживать.\nЗа последний год я спроектировал, разработал и развернул множество различных проектов, начиная от проектов для автоматизации ежедневных задач и заканчивая проектами, где я работал, как full-stack разработчик.",
+            "contacts": {
+                "title":"Контактные Данные",
+                "content":"Данил Максимов\nБрно, Чешская Республика\ndanil.maximov2000@gmail.com\n+420 608 129 798"
+            },
+            "resume":"Скачать Английское CV"
+        },
+        "resume":{
+            "education": {
+                "title": "Образование",
+                "university":{
+                    "title": "Технический Университет в Брно", 
+                    "status": "Студент факультета Информационных Технологий",
+                    "graduateDate": "Май 2022"
+                },
+                "school": {
+                    "title": "Гимнация 11",
+                    "status": "Диплом о среднем образовании", 
+                    "graduateDate": "Май 2018"
+                }
+            },
+            "experience": {
+                "title": "Опыт",
+                "university": {
+                    "title": "Университет",
+                    "position": "Разработчик Си",
+                    "range": "Май 2019 - Декабрь 2019",
+                    "intro": "Познакомился с основами программирования в статическом языке программирования Си. Было написано несколько проектов, в том числе университетских. Познакомился с программной инженерией, в частности с жизненным циклом ПО, этапами разработки ПО, анализом требований, спецификацией требований и с методолигиями разработки."
+                },
+                "backend":{
+                    "title": "Back End",
+                    "position": "Backend разработчик",
+                    "range": "Январь 2020 - Июнь 2020",
+                    "intro": "Разработал несколько приложений на основе языка Ruby. Познакомился с ООП включая SOLID, DRY, KISS и YAGNI принципами вместе с Шаблонами Проектирования. Спроектировал, разработал и развернул мультинациональный Телеграм Бот с высокой нагрузкой (возможно 12 тыс. пользовательских запросов в секунду). Разработан на основе требований клиента с более расширенным функционалом по сравнению с тем, что требовалось изначально. "
+                },
+                "fullstack":{
+                    "title": "Full Stack",
+                    "position": "Fullstack разработчик",
+                    "range": "Июль 2020 - По настоящее время",
+                    "intro": "Поддержка и Рефакторинг прошлых проектов. Работал над различными проектами, разрабатывая, как серверную часть web-приложений, так и клиентскую. Стек технологий, который применялся: Ruby on Rails (REST/GraphQL API's), ElasticSearch, RSpec, dry-rb, sidekiq, React (функциональщина, ну там хуки и тд), Redux( асинхронные запросы через Saga), Axios."
+                }
+            },
+            "skills":{
+                "title": "Навыки",
+                "languages": {
+                    "title": "Языки Программирования",
+                    "content": "Ruby; JavaScript; C"
+                },
 
-              "tools": {
-                  "title": "Tools",
-                  "content": "Ruby on Rails, RSpec, dry-rb; ORM (ActiveRecorder, Sequel); HTML5, CSS3, Bootstrap, ReactJS; Git, Heroku, Linux"
-              },
-              "technologies":{
-                  "title": "Technologies",
-                 "content": "Object-Oriented Programming; Design Patterns by GoF; SOLID, DRY, KISS, YAGNI, TDA principles; Functional Programming; Test-Driven Development; Cloud Computing; REST"
-              }
+                "tools": {
+                    "title": "Инструменты",
+                    "content": "Ruby on Rails, RSpec, dry-rb, ElasticSearch; ORM (ActiveRecorder, Sequel); HTML5, CSS3, Bootstrap; React, Redux, Axios; Git, Heroku, Linux"
+                },
+                "technologies":{
+                    "title": "Технологии",
+                   "content": "Object-Oriented Programming; Design Patterns by GoF; SOLID, DRY, KISS, YAGNI, TDA principles; Functional Programming; Test-Driven Development; Cloud Computing; REST, GraphQL"
+                }
 
-          }
-      },
-      "works": {
-          "title": "Check out of some of my works.",
-          "telegram": {
-              "role": "Ruby Developer",
-              "title": "Exam Doc's Bot",
-              "content": "Multi-international telegram bot with highload (posibly 12k user requests per second). Managed to analyze business features even going beyond what was requested from the client",
-              "technologies": "Ruby, Telegram API, VK API, Sequel(ORM), RSpec"
-          },
-          "kidsClub": {
-              "role": "Full Stack Developer",
-              "title": "Kids Club",
-              "content": "Simple landing web-site with connected Telegram-bot which sends all requests from user to a client.",
-              "technologies": "Ruby on Rails, HTML, CSS, Bootstrap, Telegram API"
-          },
-          "miniProjects": {
-              "role": "Front End Developer",
-              "title": "mini-projects-js",
-              "content": "Here I implemented various projects using nothing but HTML5, CSS & JavaScript. No JS or CSS frameworks, no libraries, etc.",
-              "technologies": "JavaScript, CSS, HTML"
-          },
-          "skamvut": {
-              "role": "Back End Developer / Ruby Developer",
-              "title": "accommodation bot",
-              "content": "Private rails-based telegram bot for students of Brno University of Technologies. Provides convenient access to Database of students living in University Accommodation. Database forms via POST requests on the website of the information system, which can only be accessed by students living in university dormitories.",
-              "technologies": "REST, Ruby on Rails, Telegram API, PostgreSQL"
-          }
-      }
-  }
+            }
+        },
+        "works": {
+            "title": "Посмотрите некоторые из моих работ",
+            "heading": "Посмотрите некоторые из моих работ",
+            "telegram": {
+                "role": "Ruby Разработчик",
+                "title": "Exam Doc's Bot",
+                "content": "Мультинациональный Телеграм Бот с высокой нагрузкой (возможно 12 тыс. пользовательских запросов в секунду). Разработан на основе требований клиента с более расширенным функционалом по сравнению с тем, что требовалось изначально.",
+                "technologies": "Ruby, Telegram API, VK API, Sequel(ORM), RSpec"
+            },
+            "webScraper": {
+                "role": "Full Stack Разработчик",
+                "title": "Web Scraper",
+                "content": "Минималистичные, Крупномасштабный Web Scraper с широким функционал разработанный для считыванния данных с сайтов любого типа",
+                "technologies": "Ruby on Rails, ElasticSearch, REST API, React, Redux, Axios"
+            },
+            "miniProjects": {
+                "role": "Front End Разработчик",
+                "title": "mini-projects-js",
+                "content": "Здесь были реализованы различные проекты, для разработки которых использовался чистый JavaScript вместе с HTML5 и CSS3 без каких либо библиотек или фрэймворков.",
+                "technologies": "JavaScript, CSS, HTML"
+            },
+            "skamvut": {
+                "role": "Back End Разработчик / Ruby Разработчик",
+                "title": "accommodation bot",
+                "content": "Приватный телеграм бот на основе технологии Ruby on Rails для студентов, проживающих в общежитиях Технического Университета в Брно. Предоставляет удобный доступ к базе данных проживающих в общежитиях стуендтов. База данных формируется за счет POST запросов на информационную систему общежития, к кторой есть доступ только у студентов.",
+                "technologies": "REST, Ruby on Rails, Telegram API, PostgreSQL"
+            }
+        }
+    }
 }
