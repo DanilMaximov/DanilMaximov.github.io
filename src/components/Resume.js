@@ -45,16 +45,10 @@ export default function About(){
                     </div>
                     <div className="col-8">
                         <div className="element">
-                        <h4>{t('resume.experience.university.title')}</h4>
-                        <i>{t('resume.experience.university.position')}</i>&bull;
-                        <span>{t('resume.experience.university.range')}</span>
-                            <p>{t('resume.experience.university.intro')}</p>
-                        </div>
-                        <div className="element">
-                            <h4>{t('resume.experience.backend.title')}</h4>
-                            <i>{t('resume.experience.backend.position')}</i>&bull;
-                            <span>{t('resume.experience.backend.range')}</span>
-                            <p>{t('resume.experience.backend.intro')}</p>
+                            <h4>{t('resume.experience.disivo.title')}</h4>
+                            <i>{t('resume.experience.disivo.position')}</i>&bull;
+                            <span>{t('resume.experience.disivo.range')}</span>
+                            <p>{t('resume.experience.disivo.intro')}</p>
                         </div>
                         <div className="element">
                             <h4>{t('resume.experience.fullstack.title')}</h4>
@@ -63,12 +57,17 @@ export default function About(){
                             <p>{t('resume.experience.fullstack.intro')}</p>
                         </div>
                         <div className="element">
-                            <h4>{t('resume.experience.disivo.title')}</h4>
-                            <i>{t('resume.experience.disivo.position')}</i>&bull;
-                            <span>{t('resume.experience.disivo.range')}</span>
-                            <p>{t('resume.experience.disivo.intro')}</p>
+                            <h4>{t('resume.experience.backend.title')}</h4>
+                            <i>{t('resume.experience.backend.position')}</i>&bull;
+                            <span>{t('resume.experience.backend.range')}</span>
+                            <p>{t('resume.experience.backend.intro')}</p>
                         </div>
-
+                        <div className="element">
+                            <h4>{t('resume.experience.university.title')}</h4>
+                            <i>{t('resume.experience.university.position')}</i>&bull;
+                            <span>{t('resume.experience.university.range')}</span>
+                            <p>{t('resume.experience.university.intro')}</p>
+                        </div>
                     </div>
                 </div>
                 <hr></hr>
