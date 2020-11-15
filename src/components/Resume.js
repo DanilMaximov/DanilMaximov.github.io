@@ -62,6 +62,13 @@ export default function About(){
                             <span>{t('resume.experience.fullstack.range')}</span>
                             <p>{t('resume.experience.fullstack.intro')}</p>
                         </div>
+                        <div className="element">
+                            <h4>{t('resume.experience.disivo.title')}</h4>
+                            <i>{t('resume.experience.disivo.position')}</i>&bull;
+                            <span>{t('resume.experience.disivo.range')}</span>
+                            <p>{t('resume.experience.disivo.intro')}</p>
+                        </div>
+
                     </div>
                 </div>
                 <hr></hr>

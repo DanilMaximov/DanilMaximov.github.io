@@ -43,16 +43,22 @@
                     "intro": "Acquainted with basics of programming in the statically typed languages including C. Wrote several projects including university projects. Acquainted with software engineering including lifecycle of software, stages of software development, requirements analysis, requirements specification, and methods of software design"
                 },
                 "backend":{
-                    "title": "Back End",
+                    "title": "Freelance – Back End",
                     "position": "Backend developer",
                     "range": "January 2020 - June 2020",
                     "intro": "Developed several applications on pure Ruby with wide-range functionality. Acquainted with OOP including SOLID, KISS, DRY and YAGNI principles together with Design Patterns by GoF. Developed, scaled, and deployed multi-international telegram bot with high load (posibly 12k user requests per second). Managed to analyze business features even going beyond what was requested from the client"
                 },
                 "fullstack":{
-                    "title": "Full Stack",
+                    "title": "Freelance – Full Stack",
                     "position": "Fullstack web-developer",
-                    "range": "July 2020 - Present",
+                    "range": "July 2020 - October 2020",
                     "intro": "Maintaining and Refactoring previous projects. Worked on several projects where was designing API’s as server side coupled with Component Based client side including such tools as Ruby on Rails(REST/GraphQL API’s), dry-rb, ElasticSearch, RSpec, React(functional approach), Redux"
+                },
+                "disivo":{
+                    "title": "Disivo",
+                    "position": "Fullstack developer",
+                    "range": "November 2020 - Present",
+                    "intro": "Developing, maintaining, and scaling a platform for managing and optimizing pricing for medium and large e-shops including extending REST API's within Ruby on Rails framework along with the implementation of client-side details using Vue.js"
                 }
             },
             "skills":{
@@ -64,7 +70,7 @@
 
                 "tools": {
                     "title": "Tools",
-                    "content": "Ruby on Rails, RSpec, dry-rb, ElasticSearch; ORM (ActiveRecorder, Sequel); HTML5, CSS3, Bootstrap; React, Redux, Axios; Git, Heroku, Linux"
+                    "content": "Ruby on Rails, RSpec, dry-rb, ElasticSearch; ORM (ActiveRecorder, Sequel); HTML5, CSS3, Bootstrap; React, Vue.js, Redux, Axios; Git, Heroku, Linux"
                 },
                 "technologies":{
                     "title": "Technologies",
