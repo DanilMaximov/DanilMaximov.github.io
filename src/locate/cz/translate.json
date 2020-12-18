@@ -9,11 +9,11 @@
 
         "home": {
             "title": "I'm Danil Maksimov",
-            "introduction": "I'm <span>full-stack web developer</span> living in Brno, Czech Republic. You can learn more about me in mine <span>ReactJS</span> based resume. And Yes, I'm to lazy to write czech localization"
+            "introduction": "I'm <span>Full Stack Developer</span> living in Brno, Czech Republic. You can learn more about me in mine <span>ReactJS</span> based resume. And Yes, I'm to lazy to write czech localization"
         },
         "about": {
             "title": "About Me",
-            "intro": "I'm Danil, full-stack developer from Russia, who presently live in Czech Republic. I am ex-student of Information Technologies and a current Self-Learning Practical Software Developer.\nI've been programming since early 2019. I started with C language at the University and soon moved to Ruby and JavaScript. I believe that development is more about problem solving and coding is a background action, so programming language is just a tool to solve specific problems. Based on the knowledge of software engineering I acquired at the university, I try to write clean and reusable code which is easy to maintain.\nOver the past year, I have designed, developed and deployed different types of projects, from projects to automate daily tasks to various freelance and volunteer projects, where I worked as a Full-Stack developer",
+            "intro": "I'm Danil, full stack developer from Russia, who presently live in Czech Republic. I am ex-student of Information Technologies and a current Self-Learning Practical Software Developer.\nI've been programming since early 2019. I started with C language at the University and soon moved to Ruby and JavaScript. I believe that development is more about problem solving and coding is a background action, so programming language is just a tool to solve specific problems. Based on the knowledge of software engineering I acquired at the university, I try to write clean and reusable code which is easy to maintain.\nOver the past year, I have designed, developed and deployed different types of projects, from projects to automate daily tasks to various freelance and volunteer projects, where I worked as a Full-Stack developer",
             "contacts": {
                 "title":"Contact Details",
                 "content":"Danil Maksimov\nBrno, Czech Republic\ndanil.maximov2000@gmail.com\n+420 608 129 798"
