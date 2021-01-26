@@ -28,7 +28,7 @@ export default function Works() {
     const projectLinks = {
         telegram: "https://github.com/Nerbyk/Telegram-Bot-Exam-Papers-Sender-v2.0",
         webScraper : "https://github.com/Nerbyk/Web-Scraper",
-        disivo : "https://github.com/Nerbyk/disivo",
+        disivo : "https://linkedin.com/company/disivo",
         skamvut : "https://github.com/Nerbyk/accommodation-bot"
     }
 
