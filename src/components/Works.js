@@ -4,10 +4,10 @@ import Col from "react-bootstrap/Col";
 import Modal from "react-bootstrap/Modal";
 import telegram from "../assets/images/projects/telegram-512.webp";
 import webScraper from "../assets/images/projects/web-scraper.png";
-import miniProjects from "../assets/images/projects/mini-projects.png";
+import disivo from "../assets/images/projects/disivo.png";
 import telegram_project from "../assets/images/projects/telegram_project.png";
 import webScraper_project from "../assets/images/projects/web-scraper_project.png";
-import miniProjects_project from "../assets/images/projects/miniProjects_project.png";
+import disivo_project from "../assets/images/projects/disivo_project.png";
 import skamvut_project from "../assets/images/projects/skamvut_project.png";
 import vut from "../assets/images/projects/vut.jpg";
 import { useTranslation } from 'react-i18next';
@@ -22,13 +22,13 @@ export default function Works() {
     const projectImages = {
         telegram: telegram_project,
         webScraper : webScraper_project,
-        miniProjects : miniProjects_project,
+        disivo : disivo_project,
         skamvut : skamvut_project
     }
     const projectLinks = {
         telegram: "https://github.com/Nerbyk/Telegram-Bot-Exam-Papers-Sender-v2.0",
         webScraper : "https://github.com/Nerbyk/Web-Scraper",
-        miniProjects : "https://github.com/Nerbyk/mini-projects-js",
+        disivo : "https://github.com/Nerbyk/disivo",
         skamvut : "https://github.com/Nerbyk/accommodation-bot"
     }
 
@@ -71,12 +71,10 @@ export default function Works() {
                     </Col>
                     <Col>
                         <div className="project-logo" >
-
-                            <img src={miniProjects} alt="JS logo" className="miniProjects"/>
-
-                            <div className="about-project" id="miniProjects" onClick={handleShow}  >
-                                <h3>{t('works.miniProjects.title')}</h3>
-                                <h4>{t('works.miniProjects.role')}</h4>
+                            <img src={disivo} alt="Disivo logo" className="Disivo"/>
+                            <div className="about-project" id="disivo" onClick={handleShow}  >
+                                <h3>{t('works.disivo.title')}</h3>
+                                <h4>{t('works.disivo.role')}</h4>
                                 <GoPlus className="plus-icon" />
                             </div>
                         </div>

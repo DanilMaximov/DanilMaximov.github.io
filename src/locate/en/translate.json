@@ -13,7 +13,8 @@
         },
         "about": {
             "title": "About Me",
-            "intro": "I'm Danil, Full Stack Developer from Russia, who presently live in Czech Republic. I am ex-student of Information Technologies and a current self-learning Full Stack Developer.\nI'm a software developer till 2019 and I believe that development is more about problem solving and coding is a background action, so programming language is just a tool to solve specific problems. \nOver the past year, I have designed, developed and deployed different types of projects, from projects to automate daily tasks to various freelance and volunteer projects. \nCurrently I am a Full-Stack Developer at Disivo where I develop new features, refactor some legacy and also optimize the performance of a project within Ruby on Rails and Vue.js ",
+            "intro": 
+            "I'm Danil, Full Stack Developer from Russia, who presently live in Czech Republic. I am ex-student of Information Technologies and a current self-learning Full Stack Developer.\nI'm a software developer till 2019 and I believe that development is more about problem solving and coding is a background action, so programming language is just a tool to solve specific problems. \nOver the past year, I have designed, developed and deployed different types of projects, from projects to automate daily tasks to various freelance and volunteer projects. \nCurrently I am a Full-Stack Developer at Disivo where I develop new features, refactor some legacy and also optimize the performance of a project within Ruby on Rails and Vue.js ",
             "contacts": {
                 "title":"Contact Details",
                 "content":"Danil Maksimov\nBrno, Czech Republic\ndanil.maximov2000@gmail.com\n+420 608 129 798"
@@ -94,11 +95,11 @@
                 "content": "Minimalistic, Highly Scaled Web Scraper with wide range of functionality designed to scrape web-sites of any type with recaptcha avoiding system. Currently includes only Alza.cz scraper which easily provides with data from all categories and subcategories despite their custom blocking via recapture",
                 "technologies": "Ruby on Rails, ElasticSearch, REST API, React, Redux, Axios"
             },
-            "miniProjects": {
-                "role": "Front End Developer",
-                "title": "mini-projects-js",
-                "content": "Here I implemented various projects using nothing but HTML5, CSS & JavaScript. No JS or CSS frameworks, no libraries, etc.",
-                "technologies": "JavaScript, CSS, HTML"
+            "disivo": {
+                "role": "Full Stack Developer",
+                "title": "Disivo",
+                "content": "Developing most requested features by clients including inner design structure, implementation of server and client sides with followed refactoring of affected modules, writing CI tests, explicit manual testing with all possible use-cases and delivery with followed maintenance and also solving some performance issues and bugs.",
+                "technologies": "Vue.js, Vuex, Ruby on Rails, RSpec, Sidekiq, ElasticSearch, MariaDB"
             },
             "skamvut": {
                 "role": "Back End Developer / Ruby Developer",

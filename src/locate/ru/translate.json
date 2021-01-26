@@ -94,11 +94,11 @@
                 "content": "Минималистичные, Крупномасштабный Web Scraper с широким функционал разработанный для считыванния данных с сайтов любого типа",
                 "technologies": "Ruby on Rails, ElasticSearch, REST API, React, Redux, Axios"
             },
-            "miniProjects": {
-                "role": "Front End Разработчик",
-                "title": "mini-projects-js",
-                "content": "Здесь были реализованы различные проекты, для разработки которых использовался чистый JavaScript вместе с HTML5 и CSS3 без каких либо библиотек или фрэймворков.",
-                "technologies": "JavaScript, CSS, HTML"
+            "disivo": {
+                "role": "Full Stack Разработчик",
+                "title": "Disivo",
+                "content": "Разработка наиболее востребованных клиентами функций, включая дизайн структуры, реализацию серверной и клиентской части с последующим рефакторингом затронутых модулей, написание тестов для CI,тестирование и доставка с последующей поддержкой, а также решение некоторых проблем с производительностью и ошибок.",
+                "technologies": "Vue.js, Vuex, Ruby on Rails, RSpec, Sidekiq, ElasticSearch, MariaDB"
             },
             "skamvut": {
                 "role": "Back End Разработчик / Ruby Разработчик",
