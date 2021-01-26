@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.78d4f6c2.chunk.css",
-    "main.js": "/static/js/main.eef6f6f8.chunk.js",
-    "main.js.map": "/static/js/main.eef6f6f8.chunk.js.map",
+    "main.js": "/static/js/main.a3350d57.chunk.js",
+    "main.js.map": "/static/js/main.a3350d57.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6fd4ee1f.js",
     "runtime-main.js.map": "/static/js/runtime-main.6fd4ee1f.js.map",
     "static/js/2.76194c04.chunk.js": "/static/js/2.76194c04.chunk.js",
     "static/js/2.76194c04.chunk.js.map": "/static/js/2.76194c04.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3970baf4fdb7483994493353dfebbaf2.js": "/precache-manifest.3970baf4fdb7483994493353dfebbaf2.js",
+    "precache-manifest.c55d8b5b72904e3458fc882acc94fe04.js": "/precache-manifest.c55d8b5b72904e3458fc882acc94fe04.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.78d4f6c2.chunk.css.map": "/static/css/main.78d4f6c2.chunk.css.map",
     "static/js/2.76194c04.chunk.js.LICENSE.txt": "/static/js/2.76194c04.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/mobile-background.07cdb51c.jpeg",
     "static/media/Resume.pdf": "/static/media/Resume.772e8157.pdf",
-    "static/media/mini-projects.png": "/static/media/mini-projects.100cfb61.png",
-    "static/media/miniProjects_project.png": "/static/media/miniProjects_project.dedc6dfd.png",
+    "static/media/disivo.png": "/static/media/disivo.889c2542.png",
+    "static/media/disivo_project.png": "/static/media/disivo_project.5dade999.png",
     "static/media/skamvut_project.png": "/static/media/skamvut_project.7a00f461.png",
     "static/media/telegram-512.webp": "/static/media/telegram-512.c2bb2e30.webp",
     "static/media/telegram_project.png": "/static/media/telegram_project.53302822.png",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.6fd4ee1f.js",
     "static/js/2.76194c04.chunk.js",
     "static/css/main.78d4f6c2.chunk.css",
-    "static/js/main.eef6f6f8.chunk.js"
+    "static/js/main.a3350d57.chunk.js"
   ]
 }
